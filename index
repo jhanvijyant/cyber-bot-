@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberSec 🤖</title>
+  <style>
+   body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #3e2960; 
+    color: #453232; /* White text */
+    background-image: url("/static/cyber.png"); /* Background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+
+   .chat-container {
+    background: rgba(20, 19, 69, 0.8); /* Semi-transparent black background for the chat container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(86, 54, 54, 0.2); /* Subtle white shadow */
+   }
+
+   #response {
+    margin-top: 20px;
+    padding: 15px;
+    /* Modern Cybersecurity Theme for Output */
+    background: linear-gradient(135deg, #1a5778 0%, #0e3244 100%);
+    border-left: 4px solid #257825; /* Green accent border */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(75, 245, 191, 0.3); /* Glowing green shadow */
+    white-space: pre-wrap;
+    color: #29a89d; /* Light green text */
+    font-family: 'Courier New', monospace; /* Monospace font for code-like appearance */
+   }
+
+   textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #555; /* Darker border for the textarea */
+    border-radius: 4px;
+    min-height: 100px;
+    background-color: #333; /* Darker background for textarea */
+    color: #fff;
+   }
+
+   button {
+    background: #479369; /* Green button color */
+    color: #000; /* Black text on button */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+
+   h1 {
+    color: #a4513a; 
+   }
+  </style>
+ </head>
+ <body>
+  <div class="chat-container">
+   <h1>CYBERSEC 🤖</h1>
+   <form method="POST">
+    <textarea name="question" placeholder="Hii!! I am CyberSec your  personal cybersecurtity bot " required></textarea>
+    <button type="submit">Get Analysis</button>
+   </form>
+
+   {% if response %}
+   <div id="response">
+    <h3>Security Analysis:</h3>
+    {{ response }}
+   </div>
+   {% endif %}
+  </div>
+ </body>
+ </html>
