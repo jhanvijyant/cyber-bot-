@@ -1,4 +1,6 @@
 CyberSec – AI-Powered Cybersecurity Chatbot 
+
+
 CyberSec is an intelligent, real-time chatbot assistant designed to answer cybersecurity-related queries. Powered by Google Gemini, it helps users understand vulnerabilities, attacks, ethical hacking, and security best practices with ease.
 ![image](https://github.com/user-attachments/assets/3a7d6d02-a3d7-465b-80fb-c0498c43e427)
 
