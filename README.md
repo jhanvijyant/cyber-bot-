@@ -5,23 +5,22 @@ CyberSec is an intelligent, real-time chatbot assistant designed to answer cyber
 ![image](https://github.com/user-attachments/assets/3a7d6d02-a3d7-465b-80fb-c0498c43e427)
 
 
-🚀 Features:
+Features:
 
 
-🔐 Built for cybersecurity learning and analysis
+- Built for cybersecurity learning and analysis
 
-🤖 Google Gemini-powered responses
+-Google Gemini-powered responses
 
-📡 Real-time web interface (Flask-based)
+-Real-time web interface (Flask-based)
 
-💬 Ask anything: vulnerabilities, exploits, tools, prevention, frameworks
+-Ask anything: vulnerabilities, exploits, tools, prevention, frameworks
 
-🧠 Ideal for students, professionals, and infosec enthusiasts
-
-
+- Ideal for students, professionals, and infosec enthusiasts
 
 
-🛠️ Tech Stack:
+
+ Tech Stack:
 
 
 Frontend: HTML, CSS, JavaScript (Bootstrap)
